@@ -140,5 +140,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 django_heroku.settings(locals())
 
-SESSION_EXPIRE_SECONDS = 300
+SESSION_EXPIRE_SECONDS = 180
 SESSION_TIMEOUT_REDIRECT = 'http://127.0.0.1:8000/login'
